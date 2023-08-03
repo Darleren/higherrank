@@ -1,0 +1,154 @@
+@media all and (min-width:768px) and (max-width:1023px){
+    body,html{width: 100%;}
+    section{margin: 50px;}
+    .title{font-size: 50px;}
+    .sub_title{font-size: 16px;}
+    /*--------------------- main_visual 시작--------------------- */
+    .main_visual{width: 100%;}
+    .main_visual .visual_txt{left: 10%;}
+    .main_visual .visual_txt .clipText{font-size:80px;}
+    .main_visual .visual_txt #test2{margin-left: 0;}
+    .main_visual .visual_txt #test2 .main_arrow img{width:50px;}
+    @keyframes arrow{
+        50%{margin-bottom: 20px;margin-left: 20px;}
+      }
+    /*--------------------- about 시작 --------------------- */
+    .about .sub_title{font-size: 16px;}
+    .about .about_bg{width: 600px;top: 10%;left: -320px;}
+    .about .about_box .box{padding: 50px;}
+    .about .about_box .box strong{width: 100%; height: 50px;display: inline-block;}
+    /*--------------------- wedo 시작 --------------------- */
+    .wedo .sub_title{font-size: 16px;}
+    .wedo .object{top: -56px;}
+    .wedo .wedo_box {grid-template-columns: 1fr 1fr;}
+    .wedo .wedo_box .box{border-right: 1px solid #eee;}
+    /*--------------------- portfolio 시작 --------------------- */
+    .portfolio .sub_title{font-size: 16px;}
+    .portfolio .con{grid-template-columns: 1fr 1fr;grid-column-gap:50px;}
+    .portfolio .con .item .txt_box p{font-size: 26px;}
+    /*--------------------- marquee 시작 --------------------- */
+    .marquee p {font-size: 50px;}
+    /*--------------------- with 시작 --------------------- */
+    .with .sub_title{margin-left: 10px;}
+    .with .brand_area{margin:50px 0px;justify-content: space-around;}
+    .with .brand_area .brand{padding: 15px;}
+    /*--------------------- contact 시작 --------------------- */
+    .contact{margin-top: 200px;}
+    .contact .title{margin:0 50px;}
+    .contact .title img{width: 35px;}
+    .contact ul{width: 40%;margin-left: 50px;}
+    .contact iframe{width: 40%;}
+    /*--------------------- footer 시작 --------------------- */
+    .footer_inner{margin: 0 50px;flex-wrap: wrap;}
+    .footer_top{width: 100%;}
+    .footer_top ul{margin: 0 50px;}
+    .footer_top ul li {font-size: 14px;}
+    .footer_top ul li a{padding: 20px 0; margin: 0;}
+    .footer_top ul li .download{width: 200px;}
+    .footer_logo{width: 20%;order: 2;}
+    .footer_left{width: 70%;order: 2;}
+    .footer_right{order: 1; width: 100%;margin-bottom: 50px;}
+    .footer_right .family_site{width: 180px;}
+    .footer_right ul{width: 180px;}
+    /*--------------------- modal 시작 --------------------- */
+    .modal .header{padding: 0 30px;}
+    .modal .header .txt .title{font-size: 50px;}
+    .modal .header .trigger{width: 30px; height: 30px;}
+    .modal .header .txt .sub_title{font-size: 16px;}
+    .modal .header .trigger span{width: 30px;}
+    .modal .desc span{font-size: 16px;}
+    .modal .fix-wrapper{width: 90%;margin: auto;}
+    .modal .fix img{width: 200px;height: 250px;}
+    /*--------------------- modal swiper 시작 --------------------- */
+    .modal .swiper {margin: 0 50px;}
+    .modal .swiper .swiper-wrapper .swiper-slide{background-color: #fff;}
+    .modal .swiper .swiper-wrapper .swiper-slide img {width: 200px; height: 250px;}
+}
+@media all and (min-width:375px) and (max-width:767px){
+    html,body{font-size: 16px;}
+    section{margin: 30px;}
+    .title{font-size: 36px;}
+    .sub_title{font-size: 16px;}
+    /*--------------------- main_visual 시작--------------------- */
+    .main_visual{width: 100%;}    
+    .main_visual a{width: 70px;height: 70px;}
+    .main_visual .visual_txt{left: 10%;}
+    .main_visual .visual_txt .clipText{font-size: 40px;}
+    .main_visual .visual_txt #test2{margin-left: 0;}
+    .main_visual .visual_txt #test2 .main_arrow{margin-left:10px;}
+    .main_visual .visual_txt #test2 .main_arrow img{width: 20px;}
+    @keyframes arrow{
+        50%{margin-bottom: 10px;margin-left: 10px;}
+      }
+    /*--------------------- about 시작 --------------------- */
+    .about{margin-top: 150px;}
+    .about .sub_title{font-size: 16px;}
+    .about .about_bg{width: 500px; left: -200px;top: 57%;}
+    .about .about_box{flex-wrap: wrap;margin-top: 100px;}
+    .about .about_box .box{width: 100%;padding: 70px;opacity: 0;}
+    .about .about_box .box_1{color: #000;}
+    .about .about_box .box_3{color: #fff;}
+    .about .about_box .box span::before{background: url(../img/about_\ \(1\).png)no-repeat center;width: 40px; height: 40px;background-size: cover;}
+    .about .about_box .box_2 span::before{background: url(../img/about_\ \(2\).png)no-repeat center;background-size: cover;}
+    .about .about_box .box_3 span::before{background: url(../img/about_w_\ \(3\).png)no-repeat center;background-size: cover;}
+    /*--------------------- wedo 시작 --------------------- */
+    .wedo{margin-top: 300px;}
+    .wedo .sub_title{font-size: 16px;padding: 20px 10px 0 0;margin-left:5px;}
+    .wedo .object{display: none;}
+    .wedo .wedo_box{grid-template-columns: 1fr 1fr;margin-top:50px;width: 100%;}
+    .wedo .wedo_box .box{height: 200px;border-right: 1px solid #eee;}
+    .wedo .wedo_box .box::after{top: 30%;left: 5%;}
+    .wedo .wedo_box .box h6{font-size: 18px;top: 35%;left: 5%;}
+    .wedo .wedo_box .box span{font-size: 13px; top: 50%;left: 5%;width: 70%;}
+    /*--------------------- portfolio 시작 --------------------- */
+    .portfolio{margin-top: 150px;}
+    .portfolio .sub_title{font-size: 16px;}
+    .portfolio .con{grid-template-columns: 1fr;}
+    .portfolio .con .item .txt_box{padding: 10px 0;}
+    .portfolio .con .item .txt_box p{display: block;padding: 0;font-size: 24px;}
+    .portfolio .con .item .img_box{height: auto;}
+    .portfolio .more_btn{font-size: 16px;width: 120px;height: 50px; line-height: 50px;}
+    /*--------------------- marquee 시작 --------------------- */
+    .marquee p {font-size: 24px;}
+    /*--------------------- with 시작 --------------------- */
+    .with{margin-top: 150px;}
+    .with .sub_title{font-size: 16px;}
+    .with .brand_area{margin-top: 50px;justify-content: space-around;}
+    .with .brand_area .brand{width: 30%;padding: 0px;}
+    .with .brand_area .brand img{width: 100%;}
+    /*--------------------- contact 시작 --------------------- */
+    .contact .title{margin: 30px;}
+    .contact .title img{width: 24px;margin-left: 5px;}
+    .contact>div{flex-wrap: wrap;}
+    .contact ul{width: 80%; margin: 30px 0;}
+    .contact ul li{font-size: 16px;}
+    .contact iframe{width: 80%;}
+    /*--------------------- footer 시작 --------------------- */
+    .footer_top ul{justify-content: center;}
+    .footer_top ul li a{display: none;}
+    .footer_top ul li .download{display:block; padding: 20px 0;}
+    .download::before{display: none;}
+    .footer_inner{margin: 30px;flex-wrap: wrap;justify-content: center;align-items: center;}
+    .footer_logo{width: 100%;order: 3;text-align: center;}
+    .footer_logo img{width: 50%;}
+    .footer_left{width: 100%;order: 2;margin:50px 0;}
+    .footer_left .etc li{padding:10px 0;line-height: 20px;}
+    .footer_left .etc li span{display:block;opacity: 0;}
+    .footer_right{order: 1;width: 100%;}
+    .footer_right ul{left:s 0;width: 100%;}
+    .footer_right .family_site {width: 100%;}
+    .footer_right .family_site span{text-align: center;display: block;width: 100%;}
+    /*--------------------- modal 시작 --------------------- */
+    .modal .header{padding: 0 30px;}
+    .modal .header .txt .title{font-size: 40px;}
+    .modal .header .trigger{width: 30px; height: 30px;}
+    .modal .header .txt .sub_title{font-size: 16px;}
+    .modal .header .trigger span{width: 30px;}
+    .modal .desc{width: 80%;bottom:50px;}
+    .modal .desc span{font-size: 16px;display: inline-block;}
+    .modal .fix-wrapper{width: 90%;flex-wrap: wrap;}
+    /*--------------------- modal swiper 시작 --------------------- */
+    .modal .swiper {margin: 0px;}
+    .modal .swiper .swiper-wrapper .swiper-slide{background-color: #fff;}
+    .modal .swiper .swiper-wrapper .swiper-slide img {width: 200px; height: 250px;}
+}
